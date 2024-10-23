@@ -1,0 +1,74 @@
+{
+    "name": "InputBoatAxis",
+    "maps": [
+        {
+            "name": "InputBoatAxis",
+            "id": "f5943357-3dfc-4ea7-a6df-4dd1468f67e6",
+            "actions": [
+                {
+                    "name": "BackForward",
+                    "type": "Value",
+                    "id": "4921b1c5-2344-49b4-8357-4bebf977ae54",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftRight",
+                    "type": "Value",
+                    "id": "e40ef59a-f074-4fdb-8ce0-8b5eaf6a1cc8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "dc829d39-4559-4987-9b5d-de2b1435d188",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d5e84b83-96bc-4419-910e-b92a93ae846a",
+                    "path": "<Gamepad>/leftStick/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BackForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d1dffe95-1449-4ea2-a9b2-0940218a1919",
+                    "path": "<Gamepad>/leftStick/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "979e6d57-865b-446a-8ac3-a5322ecfeeb6",
+                    "path": "<XInputController>/leftShoulder",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

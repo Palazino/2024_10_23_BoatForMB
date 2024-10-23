@@ -1,0 +1,107 @@
+{
+    "name": "DefaultBoatInputMB",
+    "maps": [
+        {
+            "name": "DefaultBoatInputMB",
+            "id": "a3d4816f-a3a4-4f0a-981b-543f49c0f43e",
+            "actions": [
+                {
+                    "name": "MoveBackForward",
+                    "type": "Value",
+                    "id": "9dac05a0-8968-4a7a-be43-9e6fa1ec6f20",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RotateLeftRight",
+                    "type": "Value",
+                    "id": "311ea5ef-6e7d-480e-9064-dec39abe4747",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "UseSelection",
+                    "type": "Button",
+                    "id": "aa11f54f-7ccd-4357-ad7f-4068d0f4f5b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8fb9d6ac-ec05-44bf-86b6-fb8b99951411",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveBackForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cf2fc21b-07cd-497d-8002-7afee9a59516",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveBackForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "09d1e8f4-44cb-44c0-a64a-afeee4266cac",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "235b76bf-d682-41ee-94a8-f79aa88ad108",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52d98a16-d979-4f24-a88e-a23e97fcbf99",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RotateLeftRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "343bf288-ba03-477a-9b4f-d620f37ecb18",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseSelection",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
